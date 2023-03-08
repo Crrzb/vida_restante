@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Restante</title>
+    <script src="https://kit.fontawesome.com/2ad18f15d2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body class="bg-primary">
+    <h1 class="display-6 fw-bold text-light text-center p-4 mx-auto" style="max-width: 800px;">¿ Sabes cuantas semanas de tu vida han pasado ? </h1>
+
+    <main class="container-fluid bg-light rounded py-3 pb-4 text-center mx-auto shadow" style="max-width: 350px;">
+        <p class="display-6 fs-5 fw-bold text-primary text-center">Introduce tu fecha de nacimiento</p>
+        
+        <input type="date" name="" id="fecha_nacimiento" class="form-control border-primary w-75 mx-auto" value="2023-01-01">
+        <p class="text-muted fs-6 text-start w-75 mx-auto" id="formato"></p>
+            <h1 class="display-6 fs-4  fw-bold text-primary text-center  " id="h1_semanas"></h1>
+        <button class="btn btn-primary w-75 font-monospace" id="btn_calcular" disabled style="max-width: fit-content;">Ver semanas <i class="fa-solid fa-arrow-right"></i></button>
+    </main>
+
+    <p class="text-light mt-4 display-6 fs-4 text-start mx-auto" style="max-width: 340px;"><i class="fa-solid fa-circle-exclamation"></i> Tomando en cuenta la esperanza de vida promedio en Mexico es de 75 años.
+    </p>
+    <!-- <p class="text-light mt-3 display-6 fs-4 text-start mx-auto" style="max-width: 340px;">*Cada año tiene 52 semanas.
+    </p> -->
+    <p class="text-light mt-3 display-6 fs-4 text-start mx-auto" style="max-width: 340px;"><i class="fa-solid fa-circle-exclamation"></i> Una persona en Mexico podria vivir hasta 3900 semanas a lo largo de toda su vida.
+    </p>
+
+    <a href="https://www.worldometers.info/demographics/life-expectancy/" class="text-light d-block fs-6 mx-auto mb-1" style="max-width: 330px;">Leer mas sobre la esperanza de vida en Mexico.  <i class="fa-solid fa-circle-arrow-right"></i></a>
+    <footer class="border-top bg-primary-subtle py-2 text-center static-bottom">
+        <p class="text-center d-inline font-monospace"><i class="fa-brands fa-github"></i> <a href="https://www.github.com/crrzb" class="fw-bold">@crrzb</a> 2023</p>
+
+    </footer>
+
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
